@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>
+        SymBNB -
+        {% block title %}Welcome!
+        {% endblock %}
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+    </title>
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
+    {% block stylesheets %}{% endblock %}
+</head>
+<body>
+
+{% include 'partials/header.html.twig' %}
+
+{% block body %}{% endblock %}
+
+{% include 'partials/footer.html.twig' %}
+
+<script src="{{ asset('js/jquery.min.js') }}"></script>
+<script src="{{ asset('js/popper.min.js') }}"></script>
+<script src="{{ asset('js/bootstrap.min.js') }}"></script>
+<script src="https://kit.fontawesome.com/afae0d1234.js" crossorigin="anonymous"></script>
+
+{% block javascripts %}{% endblock %}
+</body>
+</html>
