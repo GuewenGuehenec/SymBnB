@@ -1,4 +1,7 @@
 {
+    "cocur/slugify": {
+        "version": "v4.0.0"
+    },
     "doctrine/annotations": {
         "version": "1.0",
         "recipe": {
@@ -95,6 +98,21 @@
     },
     "egulias/email-validator": {
         "version": "2.1.17"
+    },
+    "friendsofphp/proxy-manager-lts": {
+        "version": "v1.0.1"
+    },
+    "fzaninotto/faker": {
+        "version": "v1.9.2"
+    },
+    "laminas/laminas-code": {
+        "version": "3.5.1"
+    },
+    "laminas/laminas-eventmanager": {
+        "version": "3.3.0"
+    },
+    "laminas/laminas-zendframework-bridge": {
+        "version": "1.1.1"
     },
     "monolog/monolog": {
         "version": "2.1.0"
@@ -396,6 +414,9 @@
     },
     "symfony/property-info": {
         "version": "v5.1.0"
+    },
+    "symfony/proxy-manager-bridge": {
+        "version": "v5.2.1"
     },
     "symfony/routing": {
         "version": "5.1",

@@ -23,7 +23,7 @@ class AdRepository extends ServiceEntityRepository
         return $this->createQueryBuilder('a')
             ->select('a as annonce, (c.rating) as avgRatings')
             ->join('a.comments', 'c')
-            ->groupBy('a')
+//            ->groupBy('a')
             ->orderBy('avgRatings', 'DESC')
             ->setMaxResults($limit)
             ->getQuery()
